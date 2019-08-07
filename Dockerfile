@@ -1,5 +1,5 @@
 FROM alpine:3.10
-LABEL maintainer="Starbix"
+LABEL maintainer="nandordocker"
 
 ENV UID=991 GID=991
 
