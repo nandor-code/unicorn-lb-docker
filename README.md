@@ -3,7 +3,7 @@
 ## Description
 What is **[UnicornFFMPEG](https://github.com/UnicornTranscoder/UnicornFFMPEG)**?
 
-This software is a part of UnicornTranscoder project, it's a binary to replace the official Plex Transcoder, the binary will save parameters in your Redis database, the data will be used by UnicornTranscoder.
+This software is a part of UnicornTranscoder project, it is a load balancer that listens on port 3001 and doles out transcode requests to scaled unicorn-transcoders.
 
 ### Features
 - Automatic installation using environment variables.
