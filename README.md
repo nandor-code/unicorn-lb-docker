@@ -21,3 +21,8 @@ This software is a part of UnicornTranscoder project, it's a binary to replace t
 ### Port
 
 - 0.0.0.0:3001
+
+### Installation
+* Edit create_docker.sh to match your network needs
+* Do all the other setup steps for **[UnicornTranscoder](https://github.com/UnicornTranscoder/UnicornTranscoder)**
+* $ sh create_docker.sh
