@@ -2,6 +2,7 @@ docker kill unicorn-lb 2>/dev/null
 docker rm unicorn-lb 2>/dev/null
 
 docker create --name unicorn-lb \
+			  --restart unless-stopped \
               -p 3001:3001 \
               -v /var/lib/plexmediaserver:/var/lib/plexmediaserver \
               -v /usr/lib/plexmediaserver:/usr/lib/plexmediaserver \
